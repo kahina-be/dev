@@ -4,15 +4,17 @@ const dateToday: Date = new Date();
 
 export const TICKETS_MOCKED: Ticket[] = [
   {
-    title: 'SI4 in Madrid',
+    title: 'SI4 in ITALY',
     description: '',
     date: dateToday,
-    author: 'Paul'
+    Student: 'Paul',
+    major: 'SI'
   },
   {
     title: 'SI5 in Paris',
     description: 'Description du voyage',
     date: dateToday,
-    author: 'Anakin'
+    Student: 'Anakin',
+    major: 'GB'
   },
 ];
